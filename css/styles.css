@@ -1,0 +1,147 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,800,700,600);
+@import url(//fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic,400italic);
+@import url(//fonts.googleapis.com/css?family=Roboto:400,400italic,500,900italic,900,700,700italic,500italic,300italic,300,100italic,100);
+@import url(//fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url(//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(//fonts.googleapis.com/css?family=Lobster);
+@import url(//fonts.googleapis.com/css?family=Bitter:400,700,400italic);
+@import url(//fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(//fonts.googleapis.com/css?family=Righteous);
+@import url(//fonts.googleapis.com/css?family=Francois+One);
+@import url(//fonts.googleapis.com/css?family=Vast+Shadow);
+@import url(//fonts.googleapis.com/css?family=Vollkorn);
+@import url(//fonts.googleapis.com/css?family=Voltaire);
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+body {background:#FEFBF3; color:#593712; line-height:1.7em; font-size:medium; font-family: 'Droid Serif', serif;}
+a {color: #B88941;}
+a:hover {color: #815824;}
+
+
+
+	
+.btn-default, .pager li > a {
+color: #815824;
+background-color: #FAEAC0;
+border-color: #FAEAC0;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+.btn-default:hover, .pager li > a:hover {
+color: #593712;
+background-color: #F5D37A;
+border-color: #F5D37A;
+}
+h2,.h2 {font-size:2em; }
+h2, .h2, h3, .h3{border-bottom:3px solid #FAEAC0;}
+.blog-post h2{margin-top:0;border-bottom:0;}
+h1,.h1 {margin:1em 0;}
+.banner h1{margin:0;}
+
+.galleria{background: #1C1104; margin-bottom:30px;}
+#streams-small div a img {width:100%;margin-bottom:10px;}
+
+.well {background-color: #FAEAC0;border-color: #F5D37A;}
+
+.sidebar-module{ padding-top:0; margin-top:0;}
+
+footer {margin-top:50px; margin-left:15px; margin-right:15px; padding:20px 0 0 0; border-top:1px solid #FAEAC0;}
+
+#streams .streamer {float:left;width:48%;height:20%; margin:1%; font-size:0.9em;}
+#streams .stream0 {width:100%;height:100%;float:left; margin:0;}
+#streams .streamer span{font-size:1.2em;}
+#streams .streamer object{width:100%;height:18%;}
+#streams .stream0 object{width:100%;height:33%;}
+#streams .stream0 iframe{width:100%;height:20%;}
+
+#social {text-align:right;}
+#social a img {width:2em;height:auto;  -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; margin:0.5em 0 0 0.5em;}
+
+.navbar-brand {}
+#logo {max-height:50px; position:relative; top:-15px;}
+.navbar-default {background-color:#593712;border:0;	box-shadow: 0 1px 2px rgba(0,0,0,.25);}
+.navbar-default .navbar-brand { color:#FAEAC0; }
+.navbar-default .navbar-brand:hover { color:#FAEAC0; }
+.navbar-default .navbar-nav > li > a { color:#FAEAC0; }
+.navbar-default .navbar-nav > li > a:hover { color:#D1A14F; }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {color: #FAEAC0;
+background-color: #815824;}
+
+#recruitment .class {height:29px;margin:2px 0; clear:both; width:100%;}
+#recruitment .spec {height:25px; width:25px;  -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; float:left; margin:0.2em;}
+
+#recruitment .class .class-title{ font-size:0.8em; font-weight:bold; float:left; width:55%;}
+
+#recruitment .class-deathknight {color: #C41F3B;}
+#recruitment .class-druid {color: #FF7D0A;}
+#recruitment .class-hunter {color: #ABD473;}
+#recruitment .class-mage {color: #69CCF0;}
+#recruitment .class-monk {color: #00FF96;}
+#recruitment .class-paladin {color: #F58CBA;}
+#recruitment .class-priest {color: #999999;}
+#recruitment .class-rogue {color: #FFF569;}
+#recruitment .class-shaman {color: #0070DE;}
+#recruitment .class-warlock {color: #9482C9;}
+#recruitment .class-warrior {color: #C79C6E;}
+
+#recruitment .spec-deathknight {background:url(/images/icons/deathknight.jpg) no-repeat; background-size: auto 25px;}
+#recruitment .spec-druid {background:url(/images/icons/druid.jpg) no-repeat; background-size: auto 25px;}
+#recruitment .spec-hunter {background:url(/images/icons/hunter.jpg) no-repeat; background-size: auto 25px;}
+#recruitment .spec-mage {background:url(/images/icons/mage.jpg) no-repeat; background-size: auto 25px;}
+#recruitment .spec-monk {background:url(/images/icons/monk.jpg) no-repeat; background-size: auto 25px;}
+#recruitment .spec-paladin {background:url(/images/icons/paladin.jpg) no-repeat; background-size: auto 25px;}
+#recruitment .spec-priest {background:url(/images/icons/priest.jpg) no-repeat; background-size: auto 25px;}
+#recruitment .spec-rogue {background:url(/images/icons/rogue.jpg) no-repeat; background-size: auto 25px;}
+#recruitment .spec-shaman {background:url(/images/icons/shaman.jpg) no-repeat; background-size: auto 25px;}
+#recruitment .spec-warlock {background:url(/images/icons/warlock.jpg) no-repeat; background-size: auto 25px;}
+#recruitment .spec-warrior {background:url(/images/icons/warrior.jpg) no-repeat; background-size: auto 25px;}
+
+#recruitment .spec-0 {background-position: -25px 0;}
+#recruitment .spec-1 {background-position: -50px 0;}
+#recruitment .spec-2 {background-position: -75px 0;}
+#recruitment .spec-3 {background-position: -100px 0;}
+
+#recruitment .recruiting-0 {opacity: 0.2; filter: alpha(opacity=20);}
+
+#recruitment .push {margin-left:35px;}
+
+#roster .spec {text-align:center;-webkit-border-radius: 50%;-moz-border-radius: 50%; border-radius: 50%; margin:0;}
+#roster .spec img {-webkit-border-radius: 50%;-moz-border-radius: 50%; border-radius: 50%; width:35%; padding:0.2em; max-width:35px;box-shadow: 0 1px 2px rgba(0,0,0,.4);  }
+
+#roster .roster-class1 .spec img{background-color: #C79C6E;border-color: #C79C6E;}
+#roster .roster-class2 .spec img{background-color: #F58CBA;border-color: #F58CBA;}
+#roster .roster-class3 .spec img{background-color: #ABD473;border-color: #ABD473;}
+#roster .roster-class4 .spec img{background-color: #FFF569;border-color: #FFF569;}
+#roster .roster-class5 .spec img{background-color: #fff;border-color: #fff;}
+#roster .roster-class6 .spec img{background-color: #C41F3B;border-color: #C41F3B;}
+#roster .roster-class7 .spec img{background-color: #0070DE;border-color: #0070DE;}
+#roster .roster-class8 .spec img{background-color: #69CCF0;border-color: #69CCF0;}
+#roster .roster-class9 .spec img{background-color: #9482C9;border-color: #9482C9;}
+#roster .roster-class10 .spec img{background-color: #00FF96;border-color: #00FF96;}
+#roster .roster-class11 .spec img{background-color: #FF7D0A;border-color: #FF7D0A;}
+
+#roster .thumbnail {background:transparent; border-width:0;}
+#roster .thumbnail img {width:90%;margin-bottom:-1.5em; max-width:80px; }
+#roster .roster-name {margin:0; font-size:0.6em; font-weight:bold;}
+#roster .row div {text-align:center; margin-bottom:2em;}
+#roster .label {font-size:0.5em;margin:0 0 0.5em 0;}
+
+#achievements {margin-bottom:10px;}
+#achievements p{font-weight:bold;}
+#achievements img {width:85%; max-width:50px;}
+#achievements .row div.col-sm-4 {min-height:65px; margin-bottom:10px;}
+
+iframe, object, .blog-post img{max-width:95%; border:0;}
+
+.scrollToTop{width:26px; height:26px;text-align:center; position:fixed;bottom:75px;right:40px;display:none;background: url('/images/cycle.png') no-repeat;}
+.scrollToTop:hover{background: url('/images/cycle-hover.png') no-repeat;}
+
+#links {margin-bottom:20px;}
+#links img {max-width:80px; max-height:80px; margin:0 2px 2px 0;}
+
+#blueimp-gallery-carousel { margin: 0 0 1.5em 0;}
+
+#achievements div.col-sm-4 {padding-left:15px; padding-right:0px;}
+
+#roster div.col-sm-2 {padding-left:0; padding-right:0;}
